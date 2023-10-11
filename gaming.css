@@ -1,10 +1,18 @@
-[class *= "kmkline"] {
-    background: linear-gradient(to right, #e60000, #f39800, #fff100, #009944, #0068b7, #1d2088, #920783, #e60000) 0 / 200% !important;
-    animation: 3s example4 linear infinite !important;
+[class *= "kmkLine"] {
+    animation: 1s gaming linear infinite !important;
+}
+
+[class *= "Color"] {
+    animation: 1s gaming linear infinite !important;
 }
 
 @keyframes gaming {
-    100% {
-        background-position: 200% !important;
-    }
+    0%{background: #e60000}
+    14%{background: #f39800}
+    28%{background: #fff100}
+    42%{background: #009944}
+    56%{background: #0068b7}
+    70%{background: #1d2088}
+    85%{background: #920783}
+    100%{background: #e60000}
 }
